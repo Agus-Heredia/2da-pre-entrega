@@ -1,0 +1,513 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* HEADER */
+header {
+    position: sticky;
+    top: 0;
+    background-color: rgb(85, 48, 48);
+    height: 4em;
+    display: flex;
+}
+
+header p {
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: space-between;
+    font-size: 3em;
+    cursor: pointer;
+    padding-left: 10px;
+    font-family: 'Tangerine', cursive;
+    transition: all .3s;
+}
+
+header p:hover {
+    text-shadow: 15px 6px 4px black;
+    text-decoration: underline 2px
+}
+
+
+header img {
+    margin-left: 38%;
+    width: 4em;
+    height: 4em;
+}
+
+
+header ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: .8em;
+    align-items: center;
+    flex-grow: 1;
+    list-style: none;
+    margin-right: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+
+
+}
+
+header ul li a {
+    text-decoration: none;
+    font-size: .8em;
+    color: white;
+    background-color: black;
+    padding: 1em;
+    transition: all .3s;
+}
+
+a:hover {
+    color: black;
+    font-size: 1em;
+    background-color: white;
+    opacity: 0.8;
+}
+
+
+/* BODY */
+
+body {
+    background-color: hsl(0, 18%, 46%);
+}
+
+/* INICIO*/
+h1 {
+    font-size: 3em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-bottom: solid 2px;
+    padding: .1em;
+    display: inline-block;
+    margin-top: .7em;
+    margin-bottom: 5px;
+}
+
+.cards-container {
+    padding: 1em;
+    display: flex;
+    gap: 2em;
+    margin: 1em;
+    margin-top: 20px;
+    font-size: .9em;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card1,
+.card2,
+.card3,
+.card4 {
+    display: flex;
+    cursor: pointer;
+    flex-direction: column;
+    padding: 1em;
+    align-items: center;
+    color: white;
+    background-color: rgb(85, 48, 48);
+    box-shadow: 15px 15px 20px black;
+    transition: all .5s;
+}
+
+section div {
+    transition: .5s;
+}
+
+.card1:hover {
+    background-color: rgb(194, 82, 82);
+    transform: scale(1.1);
+    color: black;
+}
+
+.card2:hover {
+    background-color: rgb(194, 82, 82);
+    transform: scale(1.1);
+    color: black;
+}
+
+.card3:hover {
+    background-color: rgb(194, 82, 82);
+    transform: scale(1.1);
+    color: black;
+}
+
+.card4 {
+    transition: all .5s;
+}
+
+.card4:hover {
+    transform: scale(1);
+    background-color: rgb(194, 82, 82);
+    color: black;
+    flex-grow: 0.05;
+}
+
+.card1__title,
+.card2__title,
+.card3__title,
+.card4__title {
+    font-size: 3em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: .3em;
+}
+
+.card1__img,
+.card2__img,
+.card3__img,
+.card4__img {
+    padding: 1em;
+    transition: .2s;
+}
+
+
+.card1__img {
+    width: 35em;
+    height: 20.2em;
+}
+
+.card2__img,
+.card3__img,
+.card4__img {
+    height: 20em;
+    width: 32em;
+}
+
+
+
+
+/*MENÚ*/
+
+.section__menu {
+    display: flex;
+    margin: 2em;
+    padding: 1em;
+    overflow: auto;
+    height: 30em;
+    color: white;
+    border: 1px solid gray;
+    border-radius: .8em;
+    background-color: rgb(85, 48, 48);
+}
+
+.menu__container {
+    display: flex;
+    align-content: center;
+    margin: 2em
+}
+
+.section__menu div {
+    display: flex;
+    gap: 10px;
+}
+
+.menu__items {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(85, 48, 48);
+    cursor: pointer;
+    gap: 1em;
+    border-right: 1px solid white;
+    border-left: 1px solid white;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    z-index: 1;
+    border-radius: .8em;
+    transition: all .5s;
+}
+
+.menu__items:hover {
+    background-color: rgb(194, 82, 82);
+    transform: scale(1.2);
+    z-index: 2;
+    color: black;
+}
+
+.menu__items h3 {
+    font-size: 2em;
+}
+
+.section__menu div img {
+    flex-direction: row;
+    object-fit: cover;
+
+}
+
+
+
+/* INFO */
+
+.section__info {
+    display: flex;
+    flex-direction: row;
+    padding: 1em;
+    background-color: rgba(211, 211, 211, 0.349);
+    border-radius: .5em;
+    margin: 2em 5em;
+}
+
+.info__span {
+    font-size: 1.5em;
+    font-weight: bold;
+
+}
+
+.info__p {
+    padding: 1em;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+.info__map {
+    display: flex;
+    padding: .5em;
+    flex-direction: column;
+    gap: 3px;
+
+
+
+}
+
+.map {
+    width: 20em;
+    height: 20em;
+    border-radius: .5em;
+}
+
+.info__p2 {
+
+    flex-direction: column;
+    font-size: 1.4em;
+    font-style: italic;
+    text-align: center;
+
+
+}
+
+
+
+
+/*IMÁGENES*/
+
+.section__img {
+    background-color: rgba(85, 48, 48, 0.473);
+    padding: 4px;
+    margin: .5em;
+    display: flex;
+}
+
+.img__container {
+    display: flex;
+
+}
+
+.imagenes {
+    width: 29.1em;
+    height: 29em;
+    object-fit: cover;
+}
+
+
+/*CONTACTANOS*/
+
+form {
+    margin: 0 auto;
+    margin-top: 1em;
+    border: 1px solid rgb(0, 0, 0);
+    padding: 2em;
+    color: white;
+    background-color: rgb(85, 48, 48);
+    opacity: 0.8;
+    border-radius: .5em;
+    width: 20em;
+    text-align: center;
+}
+
+form p {
+    font-size: 1.3em;
+    padding-top: 1em;
+
+}
+
+input {
+    outline: none;
+    padding: 5px;
+    margin-top: 3px;
+    transition: .1s all;
+}
+
+input:focus {
+    border: 3px solid yellow;
+}
+
+textarea {
+    outline: none;
+    width: 14em;
+    height: 4em;
+    padding-left: 3px;
+    padding-top: 3px;
+    margin-top: 3px;
+}
+
+textarea:focus {
+    border: 3px solid yellow;
+}
+
+.form__btn {
+    margin-top: 3em;
+    margin-bottom: 1em;
+    border-radius: 5px;
+    padding: .7em;
+    width: 10em;
+    cursor: pointer;
+    transition: all .5s;
+}
+
+.form__btn:hover {
+    background-color: rgb(214, 95, 95);
+}
+
+.contact__p {
+    Font-size: 2.5em;
+    padding-top: 1em;
+    text-align: center;
+}
+
+
+
+
+
+/* FOOTER */
+footer {
+    bottom: 0;
+    width: 100%;
+    display: flex;
+}
+
+.pie {
+    background-color: rgb(85, 48, 48);
+    height: 3em;
+    color: white;
+    padding: 5px;
+    justify-content: center;
+    position: fixed;
+    margin-bottom: 0;
+    font-size: 1em;
+
+}
+
+.pie__container {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    gap: 2em;
+}
+
+.pie__p {
+    border-right: 2px solid;
+    padding-right: 2em;
+    font-size: 1.2em;
+}
+
+.pie__ul {
+    display: flex;
+    gap: 10px;
+    font-size: 1.2em;
+
+}
+
+
+.pie__ul a {
+    list-style: none;
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.527);
+    color: white;
+    border-radius: 2em;
+    transition: all .3s;
+    padding: 7px;
+    font-size: .9em;
+    font-style: italic;
+}
+
+.pie__ul a:hover {
+    text-decoration: underline;
+    background-color: #fff;
+    opacity: 1;
+    color: #000;
+    border-radius: 2em;
+}
+
+
+
+@include media-breakpoint-up(sm) {
+    * {
+        padding: 0;
+        margin: 0;
+        font-size: 14px;
+    }
+
+    h2 {
+        font-size: 20px !important;
+    }
+
+    p {
+        font-size: 14px !important;
+    }
+
+    img {
+        width: 600px !important;
+        height: 400px !important;
+    }
+}
+
+
+.navbar {
+    background-color: rgb(85, 48, 48);
+
+}
+
+.navbar-brand, .nav-link {
+    color: #fff;
+}
+
+div > h2 {
+    font-size: 50px;
+
+}
+
+div > p {
+    font-size: 20px;
+    font-style: italic;
+}
+
+div > img {
+    width: 700px;
+    height: 650px;
+}
+
+section div> img {
+    max-height: 700px;
+    height: 700px;
+    width: 800px;
+    position: relative;
+}
+
+section div> img:before {
+    border: 2px solid red;
+    position: absolute;
+    right: 10px;
+    left: 10px;
+}
+
+.btn {
+    margin: 0 auto;
+    transition: all .5s;
+}
+
+.btn:hover {
+    transform: scale(.9);
+}

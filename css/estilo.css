@@ -95,11 +95,15 @@ footer {
 
 
 
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
     * {
         padding: 0;
         margin: 0;
         font-size: 14px;
+    }
+
+    body {
+        width: initial;
     }
 
     h2 {
@@ -111,8 +115,8 @@ footer {
     }
 
     img {
-        width: 600px !important;
-        height: 400px !important;
+        width: 500px !important;
+        height: 350px !important;
     }
 }
 

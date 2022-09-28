@@ -112,28 +112,23 @@ body {
 }
 
 
+/*GALERÍA*/
 
-
-/*IMÁGENES
-
-.section__img {
-    background-color: rgba(85, 48, 48, 0.473);
-    padding: 4px;
-    margin: .5em;
-    display: flex;
-}
-
-.img__container {
-    display: flex;
+#galeria img {
+    width: 450px;
+    height: 450px;
+    transition: all .2s;
 
 }
 
-.imagenes {
-    width: 29.1em;
-    height: 29em;
-    object-fit: cover;
+#galeria img:hover {
+    transform: scale(.9);
+    cursor: pointer;
 }
-*/
+
+#galeria div {
+    padding: 5px;
+}
 
 
 
@@ -148,7 +143,8 @@ body {
 footer {
     background-color: rgb(85, 48, 48);
     color: #fff;
-    font-style: normal;
+    bottom: 0;
+
 
 }
 

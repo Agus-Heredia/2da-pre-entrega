@@ -9,92 +9,6 @@ body {
     background-color: hsl(0, 18%, 46%);
 }
 
-/*IMÁGENES
-
-.section__img {
-    background-color: rgba(85, 48, 48, 0.473);
-    padding: 4px;
-    margin: .5em;
-    display: flex;
-}
-
-.img__container {
-    display: flex;
-
-}
-
-.imagenes {
-    width: 29.1em;
-    height: 29em;
-    object-fit: cover;
-}
-*/
-
-
-
-/* FOOTER
-footer {
-    bottom: 0;
-    width: 100%;
-    display: flex;
-}
-
-.pie {
-    background-color: rgb(85, 48, 48);
-    height: 3em;
-    color: white;
-    padding: 5px;
-    justify-content: center;
-    position: fixed;
-    margin-bottom: 0;
-    font-size: 1em;
-
-}
-
-.pie__container {
-    display: flex;
-    align-items: center;
-    margin: 10px;
-    gap: 2em;
-}
-
-.pie__p {
-    border-right: 2px solid;
-    padding-right: 2em;
-    font-size: 1.2em;
-}
-
-.pie__ul {
-    display: flex;
-    gap: 10px;
-    font-size: 1.2em;
-
-}
-
-
-.pie__ul a {
-    list-style: none;
-    text-decoration: none;
-    background-color: rgba(0, 0, 0, 0.527);
-    color: white;
-    border-radius: 2em;
-    transition: all .3s;
-    padding: 7px;
-    font-size: .9em;
-    font-style: italic;
-}
-
-.pie__ul a:hover {
-    text-decoration: underline;
-    background-color: #fff;
-    opacity: 1;
-    color: #000;
-    border-radius: 2em;
-}
-*/
-
-
-
 
 
 /* NAV */
@@ -106,8 +20,9 @@ footer {
 .navbar-brand {
     color: #fff;
     transition: all .5s;
-    font-size: 1.3em;
-    padding: 8px;
+    font-size: 2.5em;
+    padding: 5px;
+    font-family: 'Cookie', cursive;
 }
 
 .navbar-brand:hover {
@@ -118,9 +33,10 @@ footer {
 }
 
  .nav-link {
+    font-size: 1.2em;
     color: #fff;
     transition: all .5s;
-    padding: 8px;
+    padding: 10px;
  }
 
  .nav-link:hover {
@@ -134,7 +50,8 @@ footer {
 
 
 
-/* BODY */
+/*INICIO*/
+
 .section1 h2 {
     font-size: 50px;
 
@@ -196,6 +113,36 @@ footer {
 
 
 
+
+/*IMÁGENES
+
+.section__img {
+    background-color: rgba(85, 48, 48, 0.473);
+    padding: 4px;
+    margin: .5em;
+    display: flex;
+}
+
+.img__container {
+    display: flex;
+
+}
+
+.imagenes {
+    width: 29.1em;
+    height: 29em;
+    object-fit: cover;
+}
+*/
+
+
+
+
+
+
+
+
+
 /*FOOTER*/
 
 footer {
@@ -205,6 +152,10 @@ footer {
 
 }
 
+
+
+
+/*MEDIA QUERIES*/
 
 
 /*PARA CELULARES*/
@@ -235,40 +186,12 @@ footer {
         font-size: 22px !important;
     }
     
-    
 }
-
-
-
 
 
 
 /*PARA TABLETS*/
 @media (max-width:991px) {
-
-    /*
-    body {
-        max-width: 992px;
-        width: 100%;
-    }
-
-    div h2 {
-        font-size: 40px !important;
-    }
-    div p {
-        font-size: 18px !important;
-    }
-
-    div img {
-        width: 600px !important;
-        height: 500px !important;
-    }
-
-    .section2 img {
-        width: 400px !important;
-        height: 300px !important;
-    }
-*/
 
 nav {
     font-size: 30px;
@@ -296,7 +219,6 @@ footer div p {
 }
 
 }
-
 
 
 

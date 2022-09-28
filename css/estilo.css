@@ -208,20 +208,33 @@ footer {
 
 
 /*PARA CELULARES*/
-@media (max-width:767px) {
+@media (min-width:267px) and (max-width:767px) {
 
+    nav {
+        font-size: 30px !important;
+    }
+    
     div h2 {
-        font-size: 40px !important;
+        font-size: 90px !important;
     }
     div p {
-        font-size: 14px !important;
+        font-size: 50px !important;
     }
-
+    
     div img {
-        width: 400px !important;
-        height: 300px !important;
+        width: 900px !important;
+        height: 700px !important;
     }
-
+    
+    .btn {
+       font-size: 20px;
+       width: 100% !important;
+    }
+    
+    footer div p {
+        font-size: 22px !important;
+    }
+    
     
 }
 
@@ -230,10 +243,10 @@ footer {
 
 
 
-
 /*PARA TABLETS*/
-@media (min-width: 768px) and (max-width:991px){
+@media (max-width:991px) {
 
+    /*
     body {
         max-width: 992px;
         width: 100%;
@@ -255,9 +268,34 @@ footer {
         width: 400px !important;
         height: 300px !important;
     }
+*/
+
+nav {
+    font-size: 30px;
 }
 
+div h2 {
+    font-size: 80px !important;
+}
+div p {
+    font-size: 50px !important;
+}
 
+div img {
+    width: 900px !important;
+    height: 700px !important;
+}
+
+.btn {
+   font-size: 20px;
+   width: 100% !important;
+}
+
+footer div p {
+    font-size: 22px !important;
+}
+
+}
 
 
 

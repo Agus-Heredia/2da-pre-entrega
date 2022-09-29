@@ -217,6 +217,41 @@ footer {
 
 
 
+/*INFORMACIÓN*/
+
+#info {
+    margin-bottom: 50em;
+}
+
+#info h1 {
+    font-size: 3em;
+    color: #000;
+    font-style: italic;
+    border-radius: 30px;
+}
+
+.map_container {
+    border-radius: 20px;
+}
+
+
+.map {
+    width: 600px;
+    height: 400px;
+    border: #000 2px solid;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -46,6 +46,15 @@ body {
     transform: scale(1.1);
 }
 
+.navbar-toggler {
+    background-color: rgb(221, 196, 196);
+    transition: all .4s;
+}
+
+.navbar-toggler:hover {
+    background-color: rgb(177, 158, 158);
+    transform: rotate(180deg);
+}
 
 
 
@@ -80,6 +89,8 @@ body {
 .btn {
     width:100%;
     transition: all .5s;
+    background-color: rgb(59, 53, 53);
+    color: #fff;
 }
 
 .btn:hover {

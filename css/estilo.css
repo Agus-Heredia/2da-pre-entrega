@@ -185,6 +185,10 @@ footer {
     border-radius: 30px;
 }
 
+#menu h3 {
+    font-size: 1.5em;
+}
+
 .card {
     background-color: rgb(85, 48, 48);
     color: #fff;
@@ -224,10 +228,18 @@ footer {
 }
 
 #info h1 {
-    font-size: 3em;
+    font-size: 2.5em;
     color: #000;
     font-style: italic;
     border-radius: 30px;
+}
+
+#info div p {
+    font-size: 1.2em;
+}
+
+#info ul {
+    font-size: 1.1em;
 }
 
 .map_container {

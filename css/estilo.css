@@ -244,7 +244,29 @@ footer {
 
 
 
+/*CONTACTO*/
 
+.form_container {
+    background-color: rgb(102, 59, 59);
+    color: #fff;
+    padding: 1em;
+}
+
+.form_container h1 {
+    font-style: italic;
+}
+
+.form_container div .btn {
+    background-color: transparent;
+    border: 2px solid #fff;
+    transform: scale(1);
+
+}
+
+
+.form_container textarea {
+    border-radius: 10px;
+}
 
 
 

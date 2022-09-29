@@ -178,42 +178,13 @@ footer {
 
 
 
+
 /*MEDIA QUERIES*/
 
 
-/*PARA CELULARES*/
-@media (min-width:267px) and (max-width:767px) {
 
-    nav {
-        font-size: 30px !important;
-    }
-    
-    div h2 {
-        font-size: 90px !important;
-    }
-    div p {
-        font-size: 50px !important;
-    }
-    
-    div img {
-        width: 900px !important;
-        height: 700px !important;
-    }
-    
-    .btn {
-       font-size: 20px;
-       width: 100% !important;
-    }
-    
-    footer div p {
-        font-size: 22px !important;
-    }
-    
-}
+/*MOBILE-TABLETS*/
 
-
-
-/*PARA TABLETS*/
 @media (max-width:991px) {
 
 nav {
@@ -241,17 +212,4 @@ footer div p {
     font-size: 22px !important;
 }
 
-}
-
-
-
-/*PARA DESKTOP*/
-@media (min-width: 992px){
-    .section2 div h2 {
-        font-size: 35px !important;
-    }
-
-    .section2 div p {
-        font-size: 18px !important;
-    }
 }

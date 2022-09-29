@@ -123,6 +123,19 @@ body {
 }
 
 
+/*FOOTER*/
+
+footer {
+    background-color: rgb(85, 48, 48);
+    color: #fff;
+    margin-top: 10em;
+
+
+}
+
+
+
+
 /*GALERÍA*/
 #galeria {
     background-color: hsl(0, 24%, 38%);
@@ -135,7 +148,6 @@ body {
     color: #000;
     font-style: italic;
     border-radius: 30px;
-    transition: all .5s;
 }
 
 #galeria img {
@@ -159,21 +171,51 @@ body {
 
 
 
+/*MENÚ*/
 
+#menu {
+    border-radius: 10px;
+    padding: 3em;
+}
 
+#menu h1 {
+    font-size: 3em;
+    color: #000;
+    font-style: italic;
+    border-radius: 30px;
+}
 
-
-
-
-/*FOOTER*/
-
-footer {
+.card {
     background-color: rgb(85, 48, 48);
     color: #fff;
-    bottom: 0;
-
-
+    border: 2px solid #000;
+    margin: 2em;
+    padding: 1em;
+    transition: all .5s;
 }
+
+.card:hover {
+    transform: scale(1.1)
+}
+
+.card img {
+    width: 400px;
+    height: 250px;
+    
+}
+
+#menu a {
+    background-color: transparent;
+    color: #fff;
+    border: 1px dashed white;
+}
+
+#menu .btn:hover {
+    transform: scale(1);
+}
+
+
+
 
 
 

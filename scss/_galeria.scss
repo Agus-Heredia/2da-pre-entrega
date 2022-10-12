@@ -1,0 +1,36 @@
+#galeria {
+
+    background-color: hsl(0, 24%, 38%);
+    border-radius: 10px;
+    border: 2px solid #000;
+
+
+    h1 {
+    font-size: 3em;
+    color: #000;
+    font-style: italic;
+    border-radius: 30px;
+}
+
+    img {
+    width: 450px;
+    height: 450px;
+    display: block;
+    margin: auto;
+    border: 2px solid #000;
+    border-radius: 5%;
+    transition: all .2s;
+
+}
+
+    img:hover {
+    transform: scale(.9);
+    cursor: pointer;
+    border-radius: 45%;
+}
+
+    div {
+    padding: 5px;
+}
+
+}

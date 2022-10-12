@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* BODY */
+
+body {
+    background-color: hsl(0, 18%, 46%);
+}
+
+
+
+/* NAV */
+nav {
+
+    background-color: rgb(85, 48, 48);
+
+    .navbar-brand {
+    color: #fff;
+    transition: all .5s;
+    font-size: 2.5em;
+    padding: 5px;
+    font-family: 'Cookie', cursive;
+}
+
+    .navbar-brand:hover {
+    background-color: rgb(31, 30, 30);
+    border-radius: 10px;
+    color: #fff;
+    transform: scale(1.1);
+}
+
+    .nav-link {
+    font-size: 1.2em;
+    color: #fff;
+    transition: all .5s;
+    padding: 10px;
+ }
+
+    .nav-link:hover {
+    background-color: rgb(31, 30, 30);
+    border-radius: 10px;
+    color: #fff;
+    transform: scale(1.1);
+}
+
+    .navbar-toggler {
+    background-color: rgb(221, 196, 196);
+    transition: all .4s;
+}
+
+    .navbar-toggler:hover {
+    background-color: rgb(177, 158, 158);
+    transform: rotate(180deg);
+}
+}
+
+
+/*FOOTER*/
+
+footer {
+    background-color: rgb(85, 48, 48);
+    color: #fff;
+    margin-top: 10em;
+
+
+}

@@ -1,0 +1,52 @@
+@import "body";
+@import "inicio";
+@import "galeria";
+@import "menu";
+@import "info";
+@import "contacto";
+
+
+
+
+
+
+
+
+/*MEDIA QUERIES*/
+
+
+
+/*MOBILE-TABLETS*/
+
+@media (max-width:991px) {
+
+nav {
+    font-size: 30px;
+}
+
+div {
+
+    h2 {
+    font-size: 80px !important;
+}
+    p {
+    font-size: 50px !important;
+}
+
+    img {
+    width: 900px !important;
+    height: 700px !important;
+}
+
+}
+
+.btn {
+   font-size: 20px;
+   width: 100% !important;
+}
+
+footer div p {
+    font-size: 22px !important;
+}
+
+}

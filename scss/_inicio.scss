@@ -1,6 +1,6 @@
 /*INICIO*/
 
-.section1 {
+#section1 {
     
     h1 {
     font-size: 50px;
@@ -8,7 +8,7 @@
 }
 
     p {
-    font-size: 20px;
+    font-size: 30px;
     font-style: italic;   
 }
 
@@ -35,6 +35,7 @@
     transition: all .5s;
     background-color: rgb(59, 53, 53);
     color: #fff;
+    font-size: 20px;
 
 
     &:hover {
@@ -47,13 +48,19 @@
 
 
 
-.section2 {
+#section2 {
 
     margin-top: 2em;
     background-color: hsl(0, 24%, 38%);
     border-radius: 10px;
 
+    h2 {
+        font-size: 45px;
+    }
 
+    p {
+        font-size: 25px;
+    }
 
     img {
     width: 550px;
@@ -65,7 +72,7 @@
 }
 
     img:hover {
-    transform: scale(1.05);
+    transform: scale(1.1);
     border-radius: 0%;
 
 }

@@ -9,9 +9,6 @@
 
 
 
-
-
-
 /*MEDIA QUERIES*/
 
 
@@ -20,33 +17,128 @@
 
 @media (max-width:991px) {
 
-nav {
-    font-size: 30px;
-}
+    nav {
+        font-size: 30px;
+    }
 
-div {
 
-    h2 {
-    font-size: 80px !important;
-}
+    .section1 {
+
+        h1 {
+            font-size: 80px !important;
+        }
+
+        p {
+            font-size: 50px !important;
+        }
+
+        img {
+            width: 900px !important;
+            height: 700px !important;
+            box-shadow: 1px 13px 20px black;
+        }
+
+        .btn {
+            font-size: 30px;
+            width: 100% !important;
+        }
+
+    }
+
+    .section2 {
+
+        margin-top: 100px !important;
+
+        h2 {
+            font-size: 70px;
+        }
+
+        p {
+            font-size: 40px;
+        }
+
+        img {
+            width: 700px !important;
+            height: 500px !important;
+            margin-top: 30px !important;
+            box-shadow: 1px 13px 20px black;
+        }
+
+
+
+
+
+    }
+
+
+
+footer {
+    text-align: center;
+
     p {
-    font-size: 50px !important;
+        font-size: 22px !important;
+    }
 }
 
-    img {
-    width: 900px !important;
-    height: 700px !important;
-}
+
+
+/*-----------MENU------------*/
+#menu {
+
+    h1 {
+        font-size: 70px;
+    }
+
+    h3 {
+        font-size: 35px;
+    }
+
+    .cards-container {
+
+        flex-wrap: wrap;
+
+        .card {
+            width: 100% !important;
+            margin: 30px
+        }
+
+        h5 {
+            font-size: 50px;
+            text-align: center;
+            border-bottom: 2px solid !important;
+        }
+
+
+        p {
+            font-size: 35px !important;
+            text-align: center;
+            padding-top: 10px;
+        }
+
+
+        img {
+            margin: 0 auto;
+            padding: 10px;
+            width: 700px !important;
+            height: 500px !important;
+            border-radius: 30px;
+            box-shadow: 1px 13px 20px black;
+        }
+
+
+        a {
+            font-size: 30px !important;
+            border: 2px dashed white;
+
+            &:hover {
+                background-color: red;
+            }
+
+        }
+
+
+
+    }
 
 }
-
-.btn {
-   font-size: 20px;
-   width: 100% !important;
-}
-
-footer div p {
-    font-size: 22px !important;
-}
-
 }

@@ -22,7 +22,8 @@
     }
 
 
-    .section1 {
+
+    #section1 {
 
         h1 {
             font-size: 80px !important;
@@ -45,7 +46,7 @@
 
     }
 
-    .section2 {
+    #section2 {
 
         margin-top: 100px !important;
 
@@ -64,81 +65,100 @@
             box-shadow: 1px 13px 20px black;
         }
 
-
-
-
-
-    }
-
-
-
-footer {
-    text-align: center;
-
-    p {
-        font-size: 22px !important;
-    }
-}
-
-
-
-/*-----------MENU------------*/
-#menu {
-
-    h1 {
-        font-size: 70px;
-    }
-
-    h3 {
-        font-size: 35px;
-    }
-
-    .cards-container {
-
-        flex-wrap: wrap;
-
-        .card {
-            width: 100% !important;
-            margin: 30px
+        a{
+            font-size: 25px;
+            width: 300px;
+            margin: 0 auto;
         }
 
-        h5 {
-            font-size: 50px;
-            text-align: center;
-            border-bottom: 2px solid !important;
-        }
 
+
+
+    }
+
+
+
+    footer {
+        text-align: center;
 
         p {
-            font-size: 35px !important;
-            text-align: center;
-            padding-top: 10px;
+            font-size: 22px !important;
+        }
+    }
+
+
+
+    /*-----------MENU------------*/
+    #menu {
+
+        h1 {
+            font-size: 70px;
         }
 
-
-        img {
-            margin: 0 auto;
-            padding: 10px;
-            width: 700px !important;
-            height: 500px !important;
-            border-radius: 30px;
-            box-shadow: 1px 13px 20px black;
+        h3 {
+            font-size: 35px;
         }
 
+        .cards-container {
 
-        a {
-            font-size: 30px !important;
-            border: 2px dashed white;
+            flex-wrap: wrap;
 
-            &:hover {
-                background-color: red;
+            .card {
+                width: 100% !important;
+                margin: 30px
             }
 
+            h5 {
+                font-size: 50px;
+                text-align: center;
+                border-bottom: 2px solid !important;
+            }
+
+
+            p {
+                font-size: 35px !important;
+                text-align: center;
+                padding-top: 10px;
+            }
+
+
+            img {
+                margin: 0 auto;
+                padding: 10px;
+                width: 700px !important;
+                height: 500px !important;
+                border-radius: 30px;
+                box-shadow: 1px 13px 20px black;
+            }
+
+
+            a {
+                font-size: 30px !important;
+                border: 1px solid white;
+
+            }
+
+
+
         }
-
-
 
     }
 
-}
+    #galeria {
+
+        h1 {
+            font-size: 70px;
+        }
+
+        img {
+            width: 900px !important;
+            height: 800px !important;
+            margin-bottom: 20px;
+        }
+
+    }
+
+
+
+
 }

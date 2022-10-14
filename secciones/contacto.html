@@ -11,7 +11,7 @@
         integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
-        <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/styles.css">
     <title> ⁝ Delicias Salteñas ⁝ </title>
 </head>
 
@@ -42,55 +42,43 @@
     </div>
 
 
-    <div class="container form_container col-4 my-5 border">
+    <div id="contact" class="container form_container mt-5 p-4 ">
         <div class="row">
-            <div class="col d-flex justify-content-center">
+            <div class="col-12 text-center mb-4">
                 <h1>- Contactanos -</h1>
+                <p>Dejanos tus datos para poder brindarte la información que necesites, despejar tus dudas o resolver algún inconveniente que hayas tenido mediante email o número de teléfono. Gracias por comunicarte.</p>
             </div>
         </div>
 
-        <form class="row g-3 p-4">
+            <div class="col-12 mb-4">
+                <label for="inputName" class="form-label">Nombre</label>
+                <input type="text" class="form-control" id="inputName" placeholder="Escribí tu nombre">
+            </div>
 
-            <div class="row justify-content-center mb-3">
-                <div class="col-6">
-                    <label for="text" class="form-label">Nombre</label>
-                    <input type="text" class="form-control">
+            <div class="col-12 mb-4">
+                <label for="inputApellido" class="form-label">Apellido</label>
+                <input type="text" class="form-control" id="inputApellido" placeholder="Escribí tu apellido">
+            </div>
+
+            <div class="col-12 mb-4">
+                <label for="inputEmail" class="form-label">Email</label>
+                <input type="text" class="form-control" id="inputEmail" placeholder="Escribí tu email">
+            </div>
+
+            <div class="col-12 mb-4">
+                <label for="inputNumber" class="form-label">Teléfono</label>
+                <input type="text" class="form-control" id="inputNumber" placeholder="Escribí tu número de teléfono">
+            </div>
+
+            <div class="col-12 mb-5">
+                <div class="form-check check-container">
+                    <input type="checkbox" id="acceptTerms" class="form-check-input check mt-2">
+                    <label for="acceptTerms" class="form-check-label check-text">Acepto los términos y condiciones</label>
                 </div>
             </div>
 
-            <div class="row justify-content-center mb-3">
-                <div class="col-6">
-                    <label for="text" class="form-label">Apellido</label>
-                    <input type="text" class="form-control">
-                </div>
-            </div>
-
-            <div class="row justify-content-center mb-3">
-                <div class="col-6">
-                    <label for="text" class="form-label">Email</label>
-                    <input type="text" class="form-control">
-                </div>
-            </div>
-
-            <div class="row justify-content-center mb-3">
-                <div class="col-6">
-                    <label for="text" class="form-label">Teléfono</label>
-                    <input type="text" class="form-control">
-                </div>
-            </div>
-
-            <div class="row justify-content-center mb-3">
-                <div class="col-6">
-                    <label for="text" class="form-label">Comentarios</label>
-                    <textarea name="" id="" cols="32" rows="5"></textarea>
-                </div>
-            </div>
-
-
-            <div class="row justify-content-center my-3">
-                <div class="col-4">
-                    <button type="submit" class="btn">Enviar datos</button>
-                </div>
+            <div class="col-6 mb-2 m-0 m-auto">
+                <button type="submit" class="btn">Enviar datos</button>
             </div>
 
 

@@ -303,26 +303,66 @@ footer {
 
 /* line 1, ../3ra pre-entrega/scss/_contacto.scss */
 .form_container {
-  background-color: #663b3b;
+  background-color: #5f3939;
   color: #fff;
-  padding: 1em;
+  max-width: 600px;
+  border-radius: 20px;
 }
 
 /* line 8, ../3ra pre-entrega/scss/_contacto.scss */
 .form_container h1 {
   font-style: italic;
+  font-size: 45px;
 }
 
-/* line 12, ../3ra pre-entrega/scss/_contacto.scss */
-.form_container div .btn {
+/* line 13, ../3ra pre-entrega/scss/_contacto.scss */
+.form_container p {
+  font-size: 16px;
+}
+
+/* line 17, ../3ra pre-entrega/scss/_contacto.scss */
+.form_container label {
+  font-size: 25px;
+}
+
+/* line 22, ../3ra pre-entrega/scss/_contacto.scss */
+.form_container input {
+  background-color: transparent;
+  color: #fff;
+  transition: all .3s;
+}
+
+/* line 26, ../3ra pre-entrega/scss/_contacto.scss */
+.form_container input:focus {
+  background-color: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+}
+
+/* line 33, ../3ra pre-entrega/scss/_contacto.scss */
+.form_container .check {
+  border-radius: 100%;
+  transform: scale(0.9);
+  border: 1px solid #fff;
+}
+
+/* line 39, ../3ra pre-entrega/scss/_contacto.scss */
+.form_container .check-text {
+  font-size: 20px;
+}
+
+/* line 43, ../3ra pre-entrega/scss/_contacto.scss */
+.form_container .btn {
   background-color: transparent;
   border: 2px solid #fff;
   transform: scale(1);
+  cursor: pointer;
+  transition: all .5s;
 }
 
-/* line 20, ../3ra pre-entrega/scss/_contacto.scss */
-.form_container textarea {
-  border-radius: 10px;
+/* line 50, ../3ra pre-entrega/scss/_contacto.scss */
+.form_container .btn:hover {
+  transform: scale(0.9);
 }
 
 /*MEDIA QUERIES*/
@@ -428,15 +468,55 @@ footer {
     font-size: 30px !important;
     border: 1px solid white;
   }
-  /* line 149, ../3ra pre-entrega/scss/styles.scss */
+  /*-----------GALERIA-------*/
+  /* line 151, ../3ra pre-entrega/scss/styles.scss */
   #galeria h1 {
     font-size: 70px;
   }
-  /* line 153, ../3ra pre-entrega/scss/styles.scss */
+  /* line 155, ../3ra pre-entrega/scss/styles.scss */
   #galeria img {
     width: 900px !important;
     height: 800px !important;
     margin-bottom: 20px;
+  }
+  /*----------CONTACTO---------*/
+  /* line 166, ../3ra pre-entrega/scss/styles.scss */
+  #contact {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+  }
+  /* line 172, ../3ra pre-entrega/scss/styles.scss */
+  #contact h1 {
+    font-size: 60px;
+  }
+  /* line 176, ../3ra pre-entrega/scss/styles.scss */
+  #contact p {
+    font-size: 25px;
+  }
+  /* line 180, ../3ra pre-entrega/scss/styles.scss */
+  #contact label {
+    font-size: 35px;
+  }
+  /* line 184, ../3ra pre-entrega/scss/styles.scss */
+  #contact input {
+    font-size: 25px;
+  }
+  /* line 188, ../3ra pre-entrega/scss/styles.scss */
+  #contact .check-container {
+    margin-top: 40px;
+  }
+  /* line 192, ../3ra pre-entrega/scss/styles.scss */
+  #contact .check {
+    margin-top: 10px !important;
+  }
+  /* line 196, ../3ra pre-entrega/scss/styles.scss */
+  #contact .check-text {
+    font-size: 25px;
+  }
+  /* line 200, ../3ra pre-entrega/scss/styles.scss */
+  #contact .btn {
+    font-size: 25px;
   }
 }
 

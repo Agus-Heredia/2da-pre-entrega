@@ -211,52 +211,53 @@ footer {
 #menu a {
   background-color: transparent;
   color: #fff;
+  margin-top: 20px;
   border: 1px solid white;
 }
 
-/* line 23, ../3ra pre-entrega/scss/_menu.scss */
+/* line 24, ../3ra pre-entrega/scss/_menu.scss */
 #menu a:hover {
   transform: scale(1);
 }
 
-/* line 30, ../3ra pre-entrega/scss/_menu.scss */
+/* line 31, ../3ra pre-entrega/scss/_menu.scss */
 #menu .cards-container {
   background-color: #714646;
   width: 100%;
 }
 
-/* line 36, ../3ra pre-entrega/scss/_menu.scss */
+/* line 37, ../3ra pre-entrega/scss/_menu.scss */
 #menu .card {
   background-color: transparent;
   width: 500px !important;
   color: #fff;
-  border: 2px solid #000;
+  border: none;
   margin: 30px;
   margin-top: 20px;
   padding: 20px;
   transition: all .5s;
 }
 
-/* line 47, ../3ra pre-entrega/scss/_menu.scss */
+/* line 48, ../3ra pre-entrega/scss/_menu.scss */
 #menu .card:hover {
   background-color: #553030;
   transform: scale(1.1);
   cursor: pointer;
 }
 
-/* line 54, ../3ra pre-entrega/scss/_menu.scss */
+/* line 55, ../3ra pre-entrega/scss/_menu.scss */
 #menu h5 {
   font-size: 30px;
   padding: 5px;
 }
 
-/* line 59, ../3ra pre-entrega/scss/_menu.scss */
+/* line 60, ../3ra pre-entrega/scss/_menu.scss */
 #menu p {
   font-size: 20px;
   padding: 15px;
 }
 
-/* line 65, ../3ra pre-entrega/scss/_menu.scss */
+/* line 66, ../3ra pre-entrega/scss/_menu.scss */
 #menu img {
   width: 600px;
   height: 350px;

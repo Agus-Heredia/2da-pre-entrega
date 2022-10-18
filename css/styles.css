@@ -108,8 +108,8 @@ footer p::selection {
   border-radius: 0%;
 }
 
-/* line 30, ../3ra pre-entrega/scss/_inicio.scss */
-#section1 .btn {
+/* line 33, ../3ra pre-entrega/scss/_inicio.scss */
+.btn {
   width: 100%;
   transition: all .5s;
   background-color: #3b3535;
@@ -117,31 +117,31 @@ footer p::selection {
   font-size: 20px;
 }
 
-/* line 38, ../3ra pre-entrega/scss/_inicio.scss */
-#section1 .btn:hover {
+/* line 41, ../3ra pre-entrega/scss/_inicio.scss */
+.btn:hover {
   transform: scale(0.9);
   background-color: #fff !important;
   color: black !important;
 }
 
-/* line 53, ../3ra pre-entrega/scss/_inicio.scss */
+/* line 50, ../3ra pre-entrega/scss/_inicio.scss */
 #section2 {
   margin-top: 2em;
   background-color: #784a4a;
   border-radius: 10px;
 }
 
-/* line 59, ../3ra pre-entrega/scss/_inicio.scss */
+/* line 56, ../3ra pre-entrega/scss/_inicio.scss */
 #section2 h2 {
   font-size: 45px;
 }
 
-/* line 63, ../3ra pre-entrega/scss/_inicio.scss */
+/* line 60, ../3ra pre-entrega/scss/_inicio.scss */
 #section2 p {
   font-size: 25px;
 }
 
-/* line 67, ../3ra pre-entrega/scss/_inicio.scss */
+/* line 64, ../3ra pre-entrega/scss/_inicio.scss */
 #section2 img {
   width: 550px;
   height: 400px;
@@ -150,19 +150,19 @@ footer p::selection {
   transition: all .5s;
 }
 
-/* line 75, ../3ra pre-entrega/scss/_inicio.scss */
+/* line 72, ../3ra pre-entrega/scss/_inicio.scss */
 #section2 img:hover {
   transform: scale(1.1);
   border-radius: 0%;
 }
 
-/* line 81, ../3ra pre-entrega/scss/_inicio.scss */
+/* line 78, ../3ra pre-entrega/scss/_inicio.scss */
 #section2 a {
   font-size: 15px;
   width: 200px;
 }
 
-/* line 85, ../3ra pre-entrega/scss/_inicio.scss */
+/* line 82, ../3ra pre-entrega/scss/_inicio.scss */
 #section2 a:hover {
   transform: scale(1);
 }
@@ -458,32 +458,26 @@ footer p::selection {
   #menu h1 {
     font-size: 70px;
   }
-  /* line 102, ../3ra pre-entrega/scss/styles.scss */
-  #menu h3 {
-    font-size: 35px;
-  }
-  /* line 106, ../3ra pre-entrega/scss/styles.scss */
+  /* line 104, ../3ra pre-entrega/scss/styles.scss */
   #menu .cards-container {
     flex-wrap: wrap;
   }
-  /* line 110, ../3ra pre-entrega/scss/styles.scss */
+  /* line 108, ../3ra pre-entrega/scss/styles.scss */
   #menu .cards-container .card {
     width: 100% !important;
     margin: 30px;
   }
-  /* line 115, ../3ra pre-entrega/scss/styles.scss */
-  #menu .cards-container h5 {
-    font-size: 50px;
-    text-align: center;
-    border-bottom: 2px solid !important;
+  /* line 113, ../3ra pre-entrega/scss/styles.scss */
+  #menu .cards-container h2 {
+    font-size: 55px;
   }
-  /* line 122, ../3ra pre-entrega/scss/styles.scss */
+  /* line 117, ../3ra pre-entrega/scss/styles.scss */
   #menu .cards-container p {
     font-size: 35px !important;
     text-align: center;
     padding-top: 10px;
   }
-  /* line 129, ../3ra pre-entrega/scss/styles.scss */
+  /* line 124, ../3ra pre-entrega/scss/styles.scss */
   #menu .cards-container img {
     margin: 0 auto;
     padding: 10px;
@@ -492,90 +486,90 @@ footer p::selection {
     border-radius: 30px;
     box-shadow: 1px 13px 20px black;
   }
-  /* line 139, ../3ra pre-entrega/scss/styles.scss */
+  /* line 134, ../3ra pre-entrega/scss/styles.scss */
   #menu .cards-container a {
     font-size: 30px !important;
     border: 1px solid white;
   }
   /*-----------GALERIA-------*/
-  /* line 156, ../3ra pre-entrega/scss/styles.scss */
+  /* line 151, ../3ra pre-entrega/scss/styles.scss */
   #galeria h1 {
     font-size: 70px;
   }
-  /* line 160, ../3ra pre-entrega/scss/styles.scss */
+  /* line 155, ../3ra pre-entrega/scss/styles.scss */
   #galeria img {
     width: 900px !important;
     height: 800px !important;
     margin-bottom: 20px;
   }
   /*-------INFO-------*/
-  /* line 171, ../3ra pre-entrega/scss/styles.scss */
+  /* line 166, ../3ra pre-entrega/scss/styles.scss */
   #info {
     border-bottom: none;
     border-top: none;
     border-left: 1px solid #000;
     border-right: 1px solid #000;
   }
-  /* line 178, ../3ra pre-entrega/scss/styles.scss */
+  /* line 173, ../3ra pre-entrega/scss/styles.scss */
   #info h1 {
     font-size: 70px;
   }
-  /* line 182, ../3ra pre-entrega/scss/styles.scss */
+  /* line 177, ../3ra pre-entrega/scss/styles.scss */
   #info p {
     font-size: 35px;
     text-align: center;
     margin-bottom: 30px;
   }
-  /* line 188, ../3ra pre-entrega/scss/styles.scss */
+  /* line 183, ../3ra pre-entrega/scss/styles.scss */
   #info ul {
     font-size: 35px;
     text-align: center;
   }
-  /* line 193, ../3ra pre-entrega/scss/styles.scss */
+  /* line 188, ../3ra pre-entrega/scss/styles.scss */
   #info h3 {
     font-size: 40px;
   }
-  /* line 198, ../3ra pre-entrega/scss/styles.scss */
+  /* line 193, ../3ra pre-entrega/scss/styles.scss */
   #info .map {
     width: 80%;
     height: 400px;
   }
   /*----------CONTACTO---------*/
-  /* line 211, ../3ra pre-entrega/scss/styles.scss */
+  /* line 206, ../3ra pre-entrega/scss/styles.scss */
   #contact {
     width: 100%;
     height: 100%;
     border-radius: 20px;
   }
-  /* line 217, ../3ra pre-entrega/scss/styles.scss */
+  /* line 212, ../3ra pre-entrega/scss/styles.scss */
   #contact h1 {
     font-size: 70px;
   }
-  /* line 221, ../3ra pre-entrega/scss/styles.scss */
+  /* line 216, ../3ra pre-entrega/scss/styles.scss */
   #contact p {
     font-size: 30px;
   }
-  /* line 225, ../3ra pre-entrega/scss/styles.scss */
+  /* line 220, ../3ra pre-entrega/scss/styles.scss */
   #contact label {
     font-size: 40px;
   }
-  /* line 229, ../3ra pre-entrega/scss/styles.scss */
+  /* line 224, ../3ra pre-entrega/scss/styles.scss */
   #contact input {
     font-size: 25px;
   }
-  /* line 233, ../3ra pre-entrega/scss/styles.scss */
+  /* line 228, ../3ra pre-entrega/scss/styles.scss */
   #contact .check-container {
     margin-top: 40px;
   }
-  /* line 237, ../3ra pre-entrega/scss/styles.scss */
+  /* line 232, ../3ra pre-entrega/scss/styles.scss */
   #contact .check {
     margin-top: 10px !important;
   }
-  /* line 241, ../3ra pre-entrega/scss/styles.scss */
+  /* line 236, ../3ra pre-entrega/scss/styles.scss */
   #contact .check-text {
     font-size: 25px;
   }
-  /* line 245, ../3ra pre-entrega/scss/styles.scss */
+  /* line 240, ../3ra pre-entrega/scss/styles.scss */
   #contact .btn {
     font-size: 30px;
   }

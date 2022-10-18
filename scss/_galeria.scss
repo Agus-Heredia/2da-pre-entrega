@@ -5,33 +5,33 @@
 
 
     h1 {
-    font-size: 3em;
-    color: #000;
-    font-style: italic;
-    border-radius: 30px;
-}
+        font-size: $h1Size;
+        color: #000;
+        font-style: italic;
+        border-radius: 30px;
+    }
 
     img {
-    width: 450px;
-    height: 450px;
-    display: block;
-    margin: auto;
-    box-shadow: 1px 15px 50px black;
-    transform: scale(.9);
-    border-radius: 5%;
-    transition: all .3s;
+        width: 450px;
+        height: 450px;
+        display: block;
+        margin: auto;
+        box-shadow: 1px 15px 50px black;
+        transform: scale(.9);
+        border-radius: 5%;
+        transition: all .3s;
 
-}
+    }
 
     img:hover {
-    transform: scale(1);
-    cursor: pointer;
-    box-shadow: 1px 10px 30px #fff;
-    
-}
+        transform: scale(1);
+        cursor: pointer;
+        box-shadow: 1px 10px 30px #fff;
+
+    }
 
     div {
-    padding: 5px;
-}
+        padding: 5px;
+    }
 
 }

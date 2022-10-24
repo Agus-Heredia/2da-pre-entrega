@@ -1,6 +1,6 @@
 .form_container {
 
-    background-color: rgb(95, 57, 57);
+    background-color: $secondaryBgColor;
     color: #fff;
     max-width: 600px;
     border-radius: 20px;
@@ -19,22 +19,23 @@
 
     }
 
-    input {
+    .input_form {
         background-color: transparent;
         color: #fff;
-        transition: all .3s;
+        transition: all .5s;
 
         &:focus {
-            background-color: transparent;
-            border: 1px solid #fff;
-            color: #fff;
+            width: 50%;
         }
     }
 
     .check {
         border-radius: 100%;
+        background-color: transparent;
         transform: scale(.9);
         border: 1px solid #fff;
+
+        
     }
 
     .check-text {

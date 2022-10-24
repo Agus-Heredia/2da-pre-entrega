@@ -1,27 +1,32 @@
 #info {
-
-    border-top: 1px solid #000;
-    border-bottom: 1px solid #000;
-    border-radius: 10px;
+    background-color: $secondaryBgColor;
+    border-radius: 20px;
 
     h1 {
         font-size: $h1Size;
-        color: #000;
         font-style: italic;
         border-radius: 30px;
+        color: #fff;
     }
 
     p {
         font-size: 20px;
+        color: #fff;
+
     }
 
     ul {
         font-size: 20px;
+        font-style: normal;
         list-style: none;
+        color: #fff;
+        li {
+            font-style: italic;
+        }
     }
 
     a {
-        color: #ccc;
+        color: #333;
         text-decoration: none;
 
         &:hover {
@@ -32,6 +37,7 @@
 
     h3 {
         font-size: 30px;
+        color: #fff;
     }
 
     .map {

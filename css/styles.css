@@ -1,37 +1,37 @@
-/* line 1, ../3ra pre-entrega/scss/_body.scss */
+/* line 1, ../../../Proyecto Final/scss/_body.scss */
 * {
   margin: 0;
   padding: 0;
 }
 
 /* BODY */
-/* line 8, ../3ra pre-entrega/scss/_body.scss */
+/* line 8, ../../../Proyecto Final/scss/_body.scss */
 body {
-  background-color: #8a6060;
+  background-color: #784a4a;
 }
 
-/* line 11, ../3ra pre-entrega/scss/_body.scss */
+/* line 12, ../../../Proyecto Final/scss/_body.scss */
 body *::selection {
   background-color: #ccc;
   color: #000;
 }
 
 /* NAV */
-/* line 20, ../3ra pre-entrega/scss/_body.scss */
+/* line 21, ../../../Proyecto Final/scss/_body.scss */
 nav {
   background-color: #553030;
 }
 
-/* line 24, ../3ra pre-entrega/scss/_body.scss */
+/* line 25, ../../../Proyecto Final/scss/_body.scss */
 nav .navbar-brand {
   color: #fff;
-  transition: all .5s;
+  transition: all .3s;
   font-size: 2.5em;
   padding: 5px;
   font-family: 'Cookie', cursive;
 }
 
-/* line 32, ../3ra pre-entrega/scss/_body.scss */
+/* line 33, ../../../Proyecto Final/scss/_body.scss */
 nav .navbar-brand:hover {
   background-color: #1f1e1e;
   border-radius: 10px;
@@ -39,15 +39,15 @@ nav .navbar-brand:hover {
   transform: scale(1.1);
 }
 
-/* line 39, ../3ra pre-entrega/scss/_body.scss */
+/* line 41, ../../../Proyecto Final/scss/_body.scss */
 nav .nav-link {
   font-size: 1.2em;
   color: #fff;
-  transition: all .5s;
+  transition: all .3s;
   padding: 10px;
 }
 
-/* line 46, ../3ra pre-entrega/scss/_body.scss */
+/* line 47, ../../../Proyecto Final/scss/_body.scss */
 nav .nav-link:hover {
   background-color: #1f1e1e;
   border-radius: 10px;
@@ -55,45 +55,47 @@ nav .nav-link:hover {
   transform: scale(1.1);
 }
 
-/* line 53, ../3ra pre-entrega/scss/_body.scss */
+/* line 54, ../../../Proyecto Final/scss/_body.scss */
 nav .navbar-toggler {
   background-color: #ddc4c4;
   transition: all .4s;
 }
 
-/* line 58, ../3ra pre-entrega/scss/_body.scss */
+/* line 59, ../../../Proyecto Final/scss/_body.scss */
 nav .navbar-toggler:hover {
   background-color: #b19e9e;
   transform: rotate(180deg);
 }
 
 /*FOOTER*/
-/* line 67, ../3ra pre-entrega/scss/_body.scss */
+/* line 68, ../../../Proyecto Final/scss/_body.scss */
 footer {
   background-color: #553030;
   color: #fff;
   margin-top: 10em;
 }
 
-/* line 72, ../3ra pre-entrega/scss/_body.scss */
+/* line 73, ../../../Proyecto Final/scss/_body.scss */
 footer p::selection {
   background-color: #ccc;
   color: #000;
 }
 
 /*INICIO*/
-/* line 5, ../3ra pre-entrega/scss/_inicio.scss */
+/* line 5, ../../../Proyecto Final/scss/_inicio.scss */
 #section1 h1 {
   font-size: 50px;
+  color: #ccc;
 }
 
-/* line 10, ../3ra pre-entrega/scss/_inicio.scss */
+/* line 11, ../../../Proyecto Final/scss/_inicio.scss */
 #section1 p {
   font-size: 30px;
   font-style: italic;
+  color: #ccc;
 }
 
-/* line 15, ../3ra pre-entrega/scss/_inicio.scss */
+/* line 17, ../../../Proyecto Final/scss/_inicio.scss */
 #section1 img {
   width: 700px;
   height: 650px;
@@ -102,13 +104,13 @@ footer p::selection {
   transition: all .5s;
 }
 
-/* line 23, ../3ra pre-entrega/scss/_inicio.scss */
+/* line 25, ../../../Proyecto Final/scss/_inicio.scss */
 #section1 img:hover {
   transform: scale(1.05);
   border-radius: 0%;
 }
 
-/* line 33, ../3ra pre-entrega/scss/_inicio.scss */
+/* line 35, ../../../Proyecto Final/scss/_inicio.scss */
 .btn {
   width: 100%;
   transition: all .5s;
@@ -117,31 +119,33 @@ footer p::selection {
   font-size: 20px;
 }
 
-/* line 41, ../3ra pre-entrega/scss/_inicio.scss */
+/* line 43, ../../../Proyecto Final/scss/_inicio.scss */
 .btn:hover {
   transform: scale(0.9);
   background-color: #fff !important;
   color: black !important;
 }
 
-/* line 50, ../3ra pre-entrega/scss/_inicio.scss */
+/* line 52, ../../../Proyecto Final/scss/_inicio.scss */
 #section2 {
-  margin-top: 2em;
-  background-color: #784a4a;
+  margin-top: 5em;
+  background-color: #8a6060;
   border-radius: 10px;
 }
 
-/* line 56, ../3ra pre-entrega/scss/_inicio.scss */
+/* line 58, ../../../Proyecto Final/scss/_inicio.scss */
 #section2 h2 {
-  font-size: 45px;
+  font-size: 35px;
+  color: #fff;
 }
 
-/* line 60, ../3ra pre-entrega/scss/_inicio.scss */
+/* line 64, ../../../Proyecto Final/scss/_inicio.scss */
 #section2 p {
-  font-size: 25px;
+  font-size: 20px;
+  color: lightgray;
 }
 
-/* line 64, ../3ra pre-entrega/scss/_inicio.scss */
+/* line 69, ../../../Proyecto Final/scss/_inicio.scss */
 #section2 img {
   width: 550px;
   height: 400px;
@@ -150,38 +154,32 @@ footer p::selection {
   transition: all .5s;
 }
 
-/* line 72, ../3ra pre-entrega/scss/_inicio.scss */
+/* line 77, ../../../Proyecto Final/scss/_inicio.scss */
 #section2 img:hover {
   transform: scale(1.1);
   border-radius: 0%;
 }
 
-/* line 78, ../3ra pre-entrega/scss/_inicio.scss */
+/* line 83, ../../../Proyecto Final/scss/_inicio.scss */
 #section2 a {
   font-size: 15px;
   width: 200px;
 }
 
-/* line 82, ../3ra pre-entrega/scss/_inicio.scss */
+/* line 87, ../../../Proyecto Final/scss/_inicio.scss */
 #section2 a:hover {
   transform: scale(1);
 }
 
-/* line 1, ../3ra pre-entrega/scss/_galeria.scss */
-#galeria {
-  background-color: #784a4a;
-  border-radius: 10px;
-}
-
-/* line 7, ../3ra pre-entrega/scss/_galeria.scss */
+/* line 4, ../../../Proyecto Final/scss/_galeria.scss */
 #galeria h1 {
   font-size: 45px;
-  color: #000;
+  color: #fff;
   font-style: italic;
   border-radius: 30px;
 }
 
-/* line 14, ../3ra pre-entrega/scss/_galeria.scss */
+/* line 11, ../../../Proyecto Final/scss/_galeria.scss */
 #galeria img {
   width: 450px;
   height: 450px;
@@ -193,33 +191,34 @@ footer p::selection {
   transition: all .3s;
 }
 
-/* line 26, ../3ra pre-entrega/scss/_galeria.scss */
+/* line 23, ../../../Proyecto Final/scss/_galeria.scss */
 #galeria img:hover {
   transform: scale(1);
   cursor: pointer;
   box-shadow: 1px 10px 30px #fff;
 }
 
-/* line 33, ../3ra pre-entrega/scss/_galeria.scss */
+/* line 30, ../../../Proyecto Final/scss/_galeria.scss */
 #galeria div {
   padding: 5px;
 }
 
-/* line 6, ../3ra pre-entrega/scss/_menu.scss */
+/* line 1, ../../../Proyecto Final/scss/_menu.scss */
+#menu {
+  background-color: #784a4a;
+  border-radius: 20px;
+  margin-top: 30px;
+}
+
+/* line 7, ../../../Proyecto Final/scss/_menu.scss */
 #menu h1 {
   font-size: 45px;
-  color: #000;
   font-style: italic;
   border-radius: 30px;
+  color: #fff;
 }
 
-/* line 13, ../3ra pre-entrega/scss/_menu.scss */
-#menu h3 {
-  font-size: 25px;
-  margin-bottom: 40px;
-}
-
-/* line 18, ../3ra pre-entrega/scss/_menu.scss */
+/* line 15, ../../../Proyecto Final/scss/_menu.scss */
 #menu a {
   background-color: transparent;
   color: #fff;
@@ -227,18 +226,18 @@ footer p::selection {
   border: 1px solid white;
 }
 
-/* line 24, ../3ra pre-entrega/scss/_menu.scss */
+/* line 21, ../../../Proyecto Final/scss/_menu.scss */
 #menu a:hover {
   transform: scale(1);
 }
 
-/* line 31, ../3ra pre-entrega/scss/_menu.scss */
+/* line 28, ../../../Proyecto Final/scss/_menu.scss */
 #menu .cards-container {
-  background-color: #714646;
   width: 100%;
+  border-radius: 20px;
 }
 
-/* line 37, ../3ra pre-entrega/scss/_menu.scss */
+/* line 34, ../../../Proyecto Final/scss/_menu.scss */
 #menu .card {
   background-color: transparent;
   width: 500px !important;
@@ -246,31 +245,31 @@ footer p::selection {
   border: none;
   margin: 30px;
   margin-top: 20px;
-  padding: 20px;
   transition: all .5s;
 }
 
-/* line 48, ../3ra pre-entrega/scss/_menu.scss */
+/* line 44, ../../../Proyecto Final/scss/_menu.scss */
 #menu .card:hover {
   background-color: #553030;
   transform: scale(1.1);
   cursor: pointer;
 }
 
-/* line 55, ../3ra pre-entrega/scss/_menu.scss */
-#menu h2 {
+/* line 51, ../../../Proyecto Final/scss/_menu.scss */
+#menu .card h2 {
   font-size: 30px;
   padding: 5px;
+  margin-bottom: 20px;
 }
 
-/* line 60, ../3ra pre-entrega/scss/_menu.scss */
-#menu p {
+/* line 57, ../../../Proyecto Final/scss/_menu.scss */
+#menu .card p {
   font-size: 20px;
   padding: 15px;
 }
 
-/* line 66, ../3ra pre-entrega/scss/_menu.scss */
-#menu img {
+/* line 63, ../../../Proyecto Final/scss/_menu.scss */
+#menu .card img {
   width: 100%;
   height: 350px;
   display: block;
@@ -279,107 +278,114 @@ footer p::selection {
   margin-bottom: 8px;
 }
 
-/* line 1, ../3ra pre-entrega/scss/_info.scss */
+/* line 1, ../../../Proyecto Final/scss/_info.scss */
 #info {
-  border-top: 1px solid #000;
-  border-bottom: 1px solid #000;
-  border-radius: 10px;
+  background-color: #8a6060;
+  border-radius: 20px;
 }
 
-/* line 7, ../3ra pre-entrega/scss/_info.scss */
+/* line 5, ../../../Proyecto Final/scss/_info.scss */
 #info h1 {
   font-size: 45px;
-  color: #000;
   font-style: italic;
   border-radius: 30px;
+  color: #fff;
 }
 
-/* line 14, ../3ra pre-entrega/scss/_info.scss */
+/* line 12, ../../../Proyecto Final/scss/_info.scss */
 #info p {
   font-size: 20px;
+  color: #fff;
 }
 
-/* line 18, ../3ra pre-entrega/scss/_info.scss */
+/* line 18, ../../../Proyecto Final/scss/_info.scss */
 #info ul {
   font-size: 20px;
+  font-style: normal;
   list-style: none;
+  color: #fff;
 }
 
-/* line 23, ../3ra pre-entrega/scss/_info.scss */
+/* line 23, ../../../Proyecto Final/scss/_info.scss */
+#info ul li {
+  font-style: italic;
+}
+
+/* line 28, ../../../Proyecto Final/scss/_info.scss */
 #info a {
-  color: #ccc;
+  color: #333;
   text-decoration: none;
 }
 
-/* line 27, ../3ra pre-entrega/scss/_info.scss */
+/* line 32, ../../../Proyecto Final/scss/_info.scss */
 #info a:hover {
   color: #fff;
   text-decoration: underline;
 }
 
-/* line 33, ../3ra pre-entrega/scss/_info.scss */
+/* line 38, ../../../Proyecto Final/scss/_info.scss */
 #info h3 {
   font-size: 30px;
+  color: #fff;
 }
 
-/* line 37, ../3ra pre-entrega/scss/_info.scss */
+/* line 43, ../../../Proyecto Final/scss/_info.scss */
 #info .map {
   width: 450px;
   height: 250px;
   border-radius: 10px;
 }
 
-/* line 1, ../3ra pre-entrega/scss/_contacto.scss */
+/* line 1, ../../../Proyecto Final/scss/_contacto.scss */
 .form_container {
-  background-color: #5f3939;
+  background-color: #8a6060;
   color: #fff;
   max-width: 600px;
   border-radius: 20px;
 }
 
-/* line 8, ../3ra pre-entrega/scss/_contacto.scss */
+/* line 8, ../../../Proyecto Final/scss/_contacto.scss */
 .form_container h1 {
   font-style: italic;
   font-size: 45px;
 }
 
-/* line 13, ../3ra pre-entrega/scss/_contacto.scss */
+/* line 13, ../../../Proyecto Final/scss/_contacto.scss */
 .form_container p {
   font-size: 16px;
 }
 
-/* line 17, ../3ra pre-entrega/scss/_contacto.scss */
+/* line 17, ../../../Proyecto Final/scss/_contacto.scss */
 .form_container label {
   font-size: 25px;
 }
 
-/* line 22, ../3ra pre-entrega/scss/_contacto.scss */
-.form_container input {
+/* line 22, ../../../Proyecto Final/scss/_contacto.scss */
+.form_container .input_form {
   background-color: transparent;
   color: #fff;
-  transition: all .3s;
+  transition: all .5s;
 }
 
-/* line 27, ../3ra pre-entrega/scss/_contacto.scss */
-.form_container input:focus {
-  background-color: transparent;
-  border: 1px solid #fff;
-  color: #fff;
+/* line 27, ../../../Proyecto Final/scss/_contacto.scss */
+.form_container .input_form:focus {
+  width: 50%;
 }
 
-/* line 34, ../3ra pre-entrega/scss/_contacto.scss */
+/* line 32, ../../../Proyecto Final/scss/_contacto.scss */
 .form_container .check {
   border-radius: 100%;
+  background-color: transparent;
   transform: scale(0.9);
   border: 1px solid #fff;
 }
 
-/* line 40, ../3ra pre-entrega/scss/_contacto.scss */
+/* line 41, ../../../Proyecto Final/scss/_contacto.scss */
 .form_container .check-text {
   font-size: 20px;
 }
 
-/* line 44, ../3ra pre-entrega/scss/_contacto.scss */
+/* line 45, ../../../Proyecto Final/scss/_contacto.scss */
 .form_container .btn {
   background-color: transparent;
   border: 2px solid #fff;
@@ -388,7 +394,7 @@ footer p::selection {
   transition: all .5s;
 }
 
-/* line 51, ../3ra pre-entrega/scss/_contacto.scss */
+/* line 52, ../../../Proyecto Final/scss/_contacto.scss */
 .form_container .btn:hover {
   transform: scale(0.9);
 }
@@ -396,88 +402,88 @@ footer p::selection {
 /*MEDIA QUERIES*/
 /*MOBILE-TABLETS*/
 @media (max-width: 991px) {
-  /* line 24, ../3ra pre-entrega/scss/styles.scss */
+  /* line 25, ../../../Proyecto Final/scss/styles.scss */
   nav {
     font-size: 30px;
   }
   /*--------INICIO--------*/
-  /* line 34, ../3ra pre-entrega/scss/styles.scss */
+  /* line 35, ../../../Proyecto Final/scss/styles.scss */
   #section1 h1 {
     font-size: 80px !important;
   }
-  /* line 38, ../3ra pre-entrega/scss/styles.scss */
+  /* line 39, ../../../Proyecto Final/scss/styles.scss */
   #section1 p {
     font-size: 50px !important;
   }
-  /* line 42, ../3ra pre-entrega/scss/styles.scss */
+  /* line 43, ../../../Proyecto Final/scss/styles.scss */
   #section1 img {
     width: 900px !important;
     height: 700px !important;
     box-shadow: 1px 13px 20px black;
   }
-  /* line 48, ../3ra pre-entrega/scss/styles.scss */
+  /* line 49, ../../../Proyecto Final/scss/styles.scss */
   #section1 .btn {
     font-size: 30px;
     width: 100% !important;
   }
-  /* line 55, ../3ra pre-entrega/scss/styles.scss */
+  /* line 56, ../../../Proyecto Final/scss/styles.scss */
   #section2 {
     margin-top: 100px !important;
   }
-  /* line 59, ../3ra pre-entrega/scss/styles.scss */
+  /* line 60, ../../../Proyecto Final/scss/styles.scss */
   #section2 h2 {
     font-size: 70px;
   }
-  /* line 63, ../3ra pre-entrega/scss/styles.scss */
+  /* line 64, ../../../Proyecto Final/scss/styles.scss */
   #section2 p {
     font-size: 40px;
   }
-  /* line 67, ../3ra pre-entrega/scss/styles.scss */
+  /* line 68, ../../../Proyecto Final/scss/styles.scss */
   #section2 img {
     width: 700px !important;
     height: 500px !important;
     margin-top: 30px !important;
     box-shadow: 1px 13px 20px black;
   }
-  /* line 74, ../3ra pre-entrega/scss/styles.scss */
+  /* line 75, ../../../Proyecto Final/scss/styles.scss */
   #section2 a {
     font-size: 25px;
     width: 300px;
     margin: 0 auto;
   }
-  /* line 85, ../3ra pre-entrega/scss/styles.scss */
+  /* line 86, ../../../Proyecto Final/scss/styles.scss */
   footer {
     text-align: center;
   }
-  /* line 88, ../3ra pre-entrega/scss/styles.scss */
+  /* line 89, ../../../Proyecto Final/scss/styles.scss */
   footer p {
     font-size: 22px !important;
   }
   /*-----------MENU------------*/
-  /* line 98, ../3ra pre-entrega/scss/styles.scss */
+  /* line 99, ../../../Proyecto Final/scss/styles.scss */
   #menu h1 {
     font-size: 70px;
   }
-  /* line 104, ../3ra pre-entrega/scss/styles.scss */
+  /* line 105, ../../../Proyecto Final/scss/styles.scss */
   #menu .cards-container {
     flex-wrap: wrap;
   }
-  /* line 108, ../3ra pre-entrega/scss/styles.scss */
+  /* line 109, ../../../Proyecto Final/scss/styles.scss */
   #menu .cards-container .card {
     width: 100% !important;
     margin: 30px;
   }
-  /* line 113, ../3ra pre-entrega/scss/styles.scss */
+  /* line 114, ../../../Proyecto Final/scss/styles.scss */
   #menu .cards-container h2 {
     font-size: 55px;
   }
-  /* line 117, ../3ra pre-entrega/scss/styles.scss */
+  /* line 118, ../../../Proyecto Final/scss/styles.scss */
   #menu .cards-container p {
     font-size: 35px !important;
     text-align: center;
     padding-top: 10px;
   }
-  /* line 124, ../3ra pre-entrega/scss/styles.scss */
+  /* line 125, ../../../Proyecto Final/scss/styles.scss */
   #menu .cards-container img {
     margin: 0 auto;
     padding: 10px;
@@ -486,90 +492,90 @@ footer p::selection {
     border-radius: 30px;
     box-shadow: 1px 13px 20px black;
   }
-  /* line 134, ../3ra pre-entrega/scss/styles.scss */
+  /* line 135, ../../../Proyecto Final/scss/styles.scss */
   #menu .cards-container a {
     font-size: 30px !important;
     border: 1px solid white;
   }
   /*-----------GALERIA-------*/
-  /* line 151, ../3ra pre-entrega/scss/styles.scss */
+  /* line 152, ../../../Proyecto Final/scss/styles.scss */
   #galeria h1 {
     font-size: 70px;
   }
-  /* line 155, ../3ra pre-entrega/scss/styles.scss */
+  /* line 156, ../../../Proyecto Final/scss/styles.scss */
   #galeria img {
     width: 900px !important;
     height: 800px !important;
     margin-bottom: 20px;
   }
   /*-------INFO-------*/
-  /* line 166, ../3ra pre-entrega/scss/styles.scss */
+  /* line 167, ../../../Proyecto Final/scss/styles.scss */
   #info {
     border-bottom: none;
     border-top: none;
     border-left: 1px solid #000;
     border-right: 1px solid #000;
   }
-  /* line 173, ../3ra pre-entrega/scss/styles.scss */
+  /* line 174, ../../../Proyecto Final/scss/styles.scss */
   #info h1 {
     font-size: 70px;
   }
-  /* line 177, ../3ra pre-entrega/scss/styles.scss */
+  /* line 178, ../../../Proyecto Final/scss/styles.scss */
   #info p {
     font-size: 35px;
     text-align: center;
     margin-bottom: 30px;
   }
-  /* line 183, ../3ra pre-entrega/scss/styles.scss */
+  /* line 184, ../../../Proyecto Final/scss/styles.scss */
   #info ul {
     font-size: 35px;
     text-align: center;
   }
-  /* line 188, ../3ra pre-entrega/scss/styles.scss */
+  /* line 189, ../../../Proyecto Final/scss/styles.scss */
   #info h3 {
     font-size: 40px;
   }
-  /* line 193, ../3ra pre-entrega/scss/styles.scss */
+  /* line 194, ../../../Proyecto Final/scss/styles.scss */
   #info .map {
     width: 80%;
     height: 400px;
   }
   /*----------CONTACTO---------*/
-  /* line 206, ../3ra pre-entrega/scss/styles.scss */
+  /* line 207, ../../../Proyecto Final/scss/styles.scss */
   #contact {
     width: 100%;
     height: 100%;
     border-radius: 20px;
   }
-  /* line 212, ../3ra pre-entrega/scss/styles.scss */
+  /* line 213, ../../../Proyecto Final/scss/styles.scss */
   #contact h1 {
     font-size: 70px;
   }
-  /* line 216, ../3ra pre-entrega/scss/styles.scss */
+  /* line 217, ../../../Proyecto Final/scss/styles.scss */
   #contact p {
     font-size: 30px;
   }
-  /* line 220, ../3ra pre-entrega/scss/styles.scss */
+  /* line 221, ../../../Proyecto Final/scss/styles.scss */
   #contact label {
     font-size: 40px;
   }
-  /* line 224, ../3ra pre-entrega/scss/styles.scss */
+  /* line 225, ../../../Proyecto Final/scss/styles.scss */
   #contact input {
     font-size: 25px;
   }
-  /* line 228, ../3ra pre-entrega/scss/styles.scss */
+  /* line 229, ../../../Proyecto Final/scss/styles.scss */
   #contact .check-container {
     margin-top: 40px;
   }
-  /* line 232, ../3ra pre-entrega/scss/styles.scss */
+  /* line 233, ../../../Proyecto Final/scss/styles.scss */
   #contact .check {
     margin-top: 10px !important;
   }
-  /* line 236, ../3ra pre-entrega/scss/styles.scss */
+  /* line 237, ../../../Proyecto Final/scss/styles.scss */
   #contact .check-text {
     font-size: 25px;
   }
-  /* line 240, ../3ra pre-entrega/scss/styles.scss */
+  /* line 241, ../../../Proyecto Final/scss/styles.scss */
   #contact .btn {
     font-size: 30px;
   }

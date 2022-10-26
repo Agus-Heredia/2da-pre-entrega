@@ -1,5 +1,5 @@
-$primaryBgColor:  hsl(0, 24%, 38%);
-$secondaryBgColor:hsl(0, 18%, 46%);
+$primaryBgColor: hsl(0, 24%, 38%);
+$secondaryBgColor: hsl(0, 18%, 46%);
 $thirdBgColor: rgb(85, 48, 48);
 $h1Size: 45px;
 
@@ -146,30 +146,10 @@ $h1Size: 45px;
 
 
 
-    /*-----------GALERIA-------*/
-    #galeria {
-
-        h1 {
-            font-size: 70px;
-        }
-
-        img {
-            width: 900px !important;
-            height: 800px !important;
-            margin-bottom: 20px;
-        }
-
-    }
-
-
 
     /*-------INFO-------*/
     #info {
 
-        border-bottom: none;
-        border-top: none;
-        border-left: 1px solid #000;
-        border-right: 1px solid #000;
 
         h1 {
             font-size: 70px;
@@ -203,6 +183,26 @@ $h1Size: 45px;
 
 
 
+
+    /*-----------GALERIA-------*/
+    #galeria {
+
+        h1 {
+            font-size: 70px;
+        }
+
+        img {
+            width: 900px;
+            height: 900px;
+            margin-bottom: 20px;
+        }
+
+    }
+
+
+
+
+
     /*----------CONTACTO---------*/
     #contact {
 
@@ -223,7 +223,7 @@ $h1Size: 45px;
         }
 
         input {
-            font-size: 25px;
+            font-size: 20px;
         }
 
         .check-container {

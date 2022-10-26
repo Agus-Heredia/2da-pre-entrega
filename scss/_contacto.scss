@@ -11,22 +11,23 @@
     }
 
     p {
-        font-size: 16px;
+        font-size: 20px;
     }
 
     label {
-        font-size: 25px;
+        font-size: 20px;
 
     }
 
     .input_form {
         background-color: transparent;
         color: #fff;
-        transition: all .5s;
+        transition: all .4s;
 
         &:focus {
             width: 50%;
         }
+
     }
 
     .check {

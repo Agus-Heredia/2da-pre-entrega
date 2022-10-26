@@ -352,19 +352,19 @@ footer p::selection {
 
 /* line 13, ../../../Proyecto Final/scss/_contacto.scss */
 .form_container p {
-  font-size: 16px;
+  font-size: 20px;
 }
 
 /* line 17, ../../../Proyecto Final/scss/_contacto.scss */
 .form_container label {
-  font-size: 25px;
+  font-size: 20px;
 }
 
 /* line 22, ../../../Proyecto Final/scss/_contacto.scss */
 .form_container .input_form {
   background-color: transparent;
   color: #fff;
-  transition: all .5s;
+  transition: all .4s;
 }
 
 /* line 27, ../../../Proyecto Final/scss/_contacto.scss */
@@ -372,7 +372,7 @@ footer p::selection {
   width: 50%;
 }
 
-/* line 32, ../../../Proyecto Final/scss/_contacto.scss */
+/* line 33, ../../../Proyecto Final/scss/_contacto.scss */
 .form_container .check {
   border-radius: 100%;
   background-color: transparent;
@@ -380,12 +380,12 @@ footer p::selection {
   border: 1px solid #fff;
 }
 
-/* line 41, ../../../Proyecto Final/scss/_contacto.scss */
+/* line 42, ../../../Proyecto Final/scss/_contacto.scss */
 .form_container .check-text {
   font-size: 20px;
 }
 
-/* line 45, ../../../Proyecto Final/scss/_contacto.scss */
+/* line 46, ../../../Proyecto Final/scss/_contacto.scss */
 .form_container .btn {
   background-color: transparent;
   border: 2px solid #fff;
@@ -394,7 +394,7 @@ footer p::selection {
   transition: all .5s;
 }
 
-/* line 52, ../../../Proyecto Final/scss/_contacto.scss */
+/* line 53, ../../../Proyecto Final/scss/_contacto.scss */
 .form_container .btn:hover {
   transform: scale(0.9);
 }
@@ -497,48 +497,41 @@ footer p::selection {
     font-size: 30px !important;
     border: 1px solid white;
   }
-  /*-----------GALERIA-------*/
-  /* line 152, ../../../Proyecto Final/scss/styles.scss */
-  #galeria h1 {
-    font-size: 70px;
-  }
-  /* line 156, ../../../Proyecto Final/scss/styles.scss */
-  #galeria img {
-    width: 900px !important;
-    height: 800px !important;
-    margin-bottom: 20px;
-  }
   /*-------INFO-------*/
-  /* line 167, ../../../Proyecto Final/scss/styles.scss */
-  #info {
-    border-bottom: none;
-    border-top: none;
-    border-left: 1px solid #000;
-    border-right: 1px solid #000;
-  }
-  /* line 174, ../../../Proyecto Final/scss/styles.scss */
+  /* line 154, ../../../Proyecto Final/scss/styles.scss */
   #info h1 {
     font-size: 70px;
   }
-  /* line 178, ../../../Proyecto Final/scss/styles.scss */
+  /* line 158, ../../../Proyecto Final/scss/styles.scss */
   #info p {
     font-size: 35px;
     text-align: center;
     margin-bottom: 30px;
   }
-  /* line 184, ../../../Proyecto Final/scss/styles.scss */
+  /* line 164, ../../../Proyecto Final/scss/styles.scss */
   #info ul {
     font-size: 35px;
     text-align: center;
   }
-  /* line 189, ../../../Proyecto Final/scss/styles.scss */
+  /* line 169, ../../../Proyecto Final/scss/styles.scss */
   #info h3 {
     font-size: 40px;
   }
-  /* line 194, ../../../Proyecto Final/scss/styles.scss */
+  /* line 174, ../../../Proyecto Final/scss/styles.scss */
   #info .map {
     width: 80%;
     height: 400px;
+  }
+  /*-----------GALERIA-------*/
+  /* line 190, ../../../Proyecto Final/scss/styles.scss */
+  #galeria h1 {
+    font-size: 70px;
+  }
+  /* line 194, ../../../Proyecto Final/scss/styles.scss */
+  #galeria img {
+    width: 900px;
+    height: 900px;
+    margin-bottom: 20px;
   }
   /*----------CONTACTO---------*/
   /* line 207, ../../../Proyecto Final/scss/styles.scss */
@@ -561,7 +554,7 @@ footer p::selection {
   }
   /* line 225, ../../../Proyecto Final/scss/styles.scss */
   #contact input {
-    font-size: 25px;
+    font-size: 20px;
   }
   /* line 229, ../../../Proyecto Final/scss/styles.scss */
   #contact .check-container {
